@@ -1,6 +1,6 @@
-ArtBoomerang
+ArtBoomerangCoin
 
-Copyright (c) 2016 ArtBoomerang Developers
+Copyright (c) 2016 ArtBoomerangCoin Developers
 Copyright (c) 2014-2016 FriendshipCoin Developers
 Copyright (c) 2014 BlackCoin Developers
 Copyright (c) 2011-2015 PPCoin Developers

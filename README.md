@@ -1,13 +1,13 @@
 
 
-ArtBoomerang
+ArtBoomerangCoin
 =====================================
 
 http://www.artboomerang.win
 
-Copyright (c) 2016 ArtBoomerang Developers
+Copyright (c) 2016 ArtBoomerangCoin Developers
 
-What is ArtBoomerang?
+What is ArtBoomerangCoin?
 ----------------
 
 ArtBoomerang is an experimental new digital currency that enables instant payments to
