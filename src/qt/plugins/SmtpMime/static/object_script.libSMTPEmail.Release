@@ -1,0 +1,23 @@
+CREATE release\libSMTPEmail.a
+ADDMOD release\emailaddress.o
+ADDMOD release\mimeattachment.o
+ADDMOD release\mimefile.o
+ADDMOD release\mimehtml.o
+ADDMOD release\mimeinlinefile.o
+ADDMOD release\mimemessage.o
+ADDMOD release\mimepart.o
+ADDMOD release\mimetext.o
+ADDMOD release\smtpclient.o
+ADDMOD release\quotedprintable.o
+ADDMOD release\mimemultipart.o
+ADDMOD release\mimecontentformatter.o
+ADDMOD release\moc_emailaddress.o
+ADDMOD release\moc_mimeattachment.o
+ADDMOD release\moc_mimefile.o
+ADDMOD release\moc_mimehtml.o
+ADDMOD release\moc_mimepart.o
+ADDMOD release\moc_smtpclient.o
+ADDMOD release\moc_quotedprintable.o
+ADDMOD release\moc_mimemultipart.o
+ADDMOD release\moc_mimecontentformatter.o
+SAVE

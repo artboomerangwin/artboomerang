@@ -1,0 +1,105 @@
+        /*51,181,229 = #33B5E5*/
+
+        QScrollBar {
+            border: 1px solid #999999;
+            background:white;
+            margin: 0px 0px 0px 0px;
+        }
+        QScrollBar:vertical {
+            width:5px;
+        }
+        QScrollBar:horizontal {
+            height:5px;
+        }
+        QScrollBar::handle {
+            background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+            stop: 0  rgb(1,252,237), stop: 0.5 rgb(1,252,237),  stop:1 rgb(1,252,237));
+        }
+        QScrollBar::handle:vertical {
+            min-height: 0px;
+        }
+        QScrollBar::handle:horizontal {
+            min-width: 0px;
+        }
+        QScrollBar::add-line {
+            background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+            stop: 0  rgb(1,252,237), stop: 0.5 rgb(1,252,237),  stop:1 rgb(1,252,237));
+            subcontrol-origin: margin;
+        }
+        QScrollBar::add-line:vertical {
+            height: px;
+            subcontrol-position: bottom;
+        }
+        QScrollBar::add-line:horizontal {
+            width: px;
+            subcontrol-position: left;
+        }
+        QScrollBar::sub-line {
+            background: qlineargradient(x1:0, y1:0, x2:1, y2:0,
+            stop: 0  rgb(1,252,237), stop: 0.5 rgb(1,252,237),  stop:1 rgb(1,252,237));
+            subcontrol-origin: margin;
+        }
+        QScrollBar::sub-line:vertical {
+            height: 0px;
+            subcontrol-position: top;
+        }
+        QScrollBar::sub-line:horizontal {
+            width: 0px;
+            subcontrol-position: right;
+        }
+        QPushButton  {
+        border-style: outset; border-width: 3px; border-radius: 10px; border-color: beige;
+        padding: 6px; background-color:#ABFDF8;
+        }
+        QPushButton:pressed  {border-style: inset; background-color: rgb(4, 253, 197); }
+        QPushButton:focus { outline: none; }
+        QPushButton:hover { outline: none; }
+
+
+
+        QToolBar  { background: #f6f7fa; border-bottom: solid; border-bottom-width: 2px;  border-color: #33B5E5;
+        background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #f6f7fa, stop: 1 #dadbde);
+        }
+        QToolBar QToolButton, ActionBar QToolButton {
+        border-bottom: solid; border-width: 3px;  border-color: #33B5E5;
+        background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1, stop: 0 #f6f7fa, stop: 1 #dadbde);
+        }
+        QToolBar QToolButton:pressed, ActionBar QToolButton:pressed  {
+        border: solid; border-width: 2px;  border-color: #33B5E5;
+        background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,  stop: 0 #ABFDF8, stop: 1 #f6f7fa);
+        }
+        QToolBar QToolButton:checked {
+        border: solid; border-bottom-width: 4px; border-color: #33B5E5;
+        background-color: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,  stop: 0 #ABFDF8, stop: 1 #f6f7fa);
+        }
+        QToolBar QToolButton:focus { outline: none; }
+        QToolBar QToolButton:hover { outline: none; }
+        QToolBar QToolButton:default { outline: none; }
+
+
+        QTabWidget::pane {   border-top: 2px solid #33B5E5;  }
+        QTabWidget::tab-bar {  left: 5px;  }
+        QTabBar::tab { background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                        stop: 0 #fafafa, stop: 0.4 #f4f4f4, stop: 0.5 #e7e7e7, stop: 1.0 #fafafa);
+             border: 2px solid #33B5E5; border-bottom-color: #33B5E5;
+             border-bottom-width: 0px;
+             border-top-left-radius: 4px; border-top-right-radius: 4px;
+             min-width: 8ex; padding: 2px;
+             margin-left: 0;
+
+                  }
+        QTabBar::tab:selected, QTabBar::tab:hover {
+             background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                  stop: 0 #ABFDF8, stop: 0.4 #f4f4f4, stop: 0.5 #e7e7e7, stop: 1.0 #fafafa);
+        }
+        QTabBar::tab:selected {border-color: #33B5E5; border-bottom-width: 4px;}
+        QTabBar::tab:!selected {margin-top: 4px;}
+        QTabBar::tab:selected { margin-left: -4px;  margin-right: -4px; }
+        QTabBar::tab:first:selected {  margin-left: 0; }
+        QTabBar::tab:last:selected {    margin-right: 0;  }
+        QTabBar::tab:only-one {  margin: 0;   }
+        QTabBar::tab:focus { outline: none; }
+        QTabBar::tab:hover { outline: none; }
+        QTabBar::tab:default { outline: none; }
+
+        QTabBar::tab {min-width:%1;height:%2}

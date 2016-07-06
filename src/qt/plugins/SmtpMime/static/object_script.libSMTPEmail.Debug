@@ -1,0 +1,23 @@
+CREATE debug\libSMTPEmail.a
+ADDMOD debug\emailaddress.o
+ADDMOD debug\mimeattachment.o
+ADDMOD debug\mimefile.o
+ADDMOD debug\mimehtml.o
+ADDMOD debug\mimeinlinefile.o
+ADDMOD debug\mimemessage.o
+ADDMOD debug\mimepart.o
+ADDMOD debug\mimetext.o
+ADDMOD debug\smtpclient.o
+ADDMOD debug\quotedprintable.o
+ADDMOD debug\mimemultipart.o
+ADDMOD debug\mimecontentformatter.o
+ADDMOD debug\moc_emailaddress.o
+ADDMOD debug\moc_mimeattachment.o
+ADDMOD debug\moc_mimefile.o
+ADDMOD debug\moc_mimehtml.o
+ADDMOD debug\moc_mimepart.o
+ADDMOD debug\moc_smtpclient.o
+ADDMOD debug\moc_quotedprintable.o
+ADDMOD debug\moc_mimemultipart.o
+ADDMOD debug\moc_mimecontentformatter.o
+SAVE

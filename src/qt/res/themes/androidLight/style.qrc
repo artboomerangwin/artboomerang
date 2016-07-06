@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="qss_icons">
+  </qresource>
+  <qresource prefix="androidLight">
+      <file>style.qss</file>
+  </qresource>
+</RCC>
+
