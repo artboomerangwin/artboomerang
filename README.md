@@ -23,7 +23,9 @@ SPECIFICATIONS
 -------------------
 
 SYMBOL:    ABM
+
 POS INTEREST: PoS (Proof-of-Stake) 5% yearly (only from non-reserved wallet balance)
+
 BLOCK TIME: 2 min
 
 LAST POW BLOCK: 1200
